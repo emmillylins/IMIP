@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.9px;
+}
+
+.logo {
+    padding: 1px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo-image {
+    max-width: 200px;
+    padding-left: 20px;
+}
+
+.btn {
+    float: right;
+    border-radius: 7px !important;
+    border-style: none;
+    padding: 4px !important;
+    background-color: rgba(0, 0, 0, 0.137) !important;
+}
+
+.btn-middle {
+    border-style: none;
+}
+
+.col-3 {
+    padding: 1%;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: rgba(0, 0, 0) !important;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+  
+}
+
+.part2 {
+    background-color: #F5F5F5;
+    padding: 3%;
+    display: flex;
+}
+
+.part2 h2 {
+    text-transform: uppercase;
+    color: #176524;
+}
+
+.part2 h2 span {
+    color: #FF6DCD;
+}
+
+footer {
+    background-color: #176524 !important;
+    color: white;
+}
+
+.endereço {
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer img {
+    max-width: 200px;
+    padding-left: 10px;
+}
