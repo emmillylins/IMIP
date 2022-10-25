@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.5px;
+    background-color: #f1f1f1;
+}
+
+/*HEADER STYLE*/
+header {
+    padding: 10px 2%;
+    display: flex;
+    align-items: center;
+}
+
+header #logo{
+    max-width: 200px;
+    padding-left: 20px;
+}
+
+header h5 {
+    padding: 1px 2%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #176524;
+    padding-top: 7px;
+    padding-inline-end: 30%;
+
+}
+
+header span {
+    color: black;
+    font-weight: 600;
+    padding-top: 7px;
+}
+
+header #acessibilidade {
+    padding-inline-start: 5px;
+    max-width: 45px;
+}
+
+header div {
+    padding-inline-start: 18%;
+}
+
+/*NAV STYLE*/
+nav {
+    display: flex;
+    background-color: #176524;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+}
+
+nav a {
+    color: white;
+    font-size: 15px;
+    padding: 17px;
+    padding-left: 3%; padding-right: 3%;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #176524;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+/* DIV CONTAINER STYLES */
+.container {
+    display: flex;
+}
+.container p {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+
+
+
+/*RESPONSIVIDADE*/
+@media (max-width: 650px) {
+    header {
+        flex-direction: column;
+    }
+}

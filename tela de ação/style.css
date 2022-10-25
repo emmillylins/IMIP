@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+/*HEADER STYLE*/
+header {
+    padding: 10px 2%;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+header h5 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #176524;
+    padding-top: 7px;
+    padding-inline-end: 30%;
+
+}
+
+header a {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    padding: 0px 2%;
+}
+
+header a:hover{
+    color: #176524;
+    transition: 0.3s;
+}
+
+header img{
+    max-width: 200px;
+    padding-left: 20px;
+}
+
+/* button style
+.btn {
+    float: right;
+    border-radius: 7px !important;
+    border-style: none;
+    padding: 4px !important;
+    background-color: rgba(0, 0, 0, 0.137) !important;
+}
+
+.btn-middle {
+    border-style: none;
+}
+*/
+
+/*NAV STYLE*/
+nav {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+nav a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 17px;
+    padding-left: 4%; padding-right: 4%;
+    text-decoration: none;
+    text-align: center;
+    border-left: 1px;
+}
+
+nav a:hover {
+    background-color: #176524;
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+
+main {
+    background-color: #F5F5F5;
+    padding: 4%;
+    display: flex;
+}
+
+/*MAIN STYLE*/
+main h2 {
+    font-size: 50px;
+    padding-inline-end: 39%;
+    text-transform: uppercase;
+    color: #176524;
+}
+
+main h2 span {
+    color: #FF6DCD;
+}
+
+main h5 {
+    padding-top: 20px;
+    padding-inline-end: 40%;
+}
+
+span b {
+    text-transform: uppercase;
+}
+
+/*FOOTER STYLE*/
+footer {
+    background-color: #176524 !important;
+    color: white;
+}
+
+.endereço {
+    display: flex;
+    padding: 10px 2% 0%;
+    background-color: #176524;
+    justify-content: space-evenly;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    justify-content: space-between;
+}
+
+.images {
+    display: grid !important;
+}
+
+.icons a {
+    padding: 0% 2%;
+}
+
+#footer-logo {
+    max-width: 300px;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 10px;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 650px) {
+    nav, main, header, .rodape {
+        flex-direction: column;
+    }
+}
