@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 0px;
     background-color: #f1f1f1;
 }
 
@@ -80,22 +80,14 @@ section {
 
 section p {
     font-size: 13px;
-    letter-spacing: 0px;
     text-align: center;
     text-transform: uppercase;
     padding-left: 4%;
-
-}
-
-/*MAIN STYLES*/
-main {
-    background-color: #f1f1f1;
-    padding: 10%;
 }
 
 /*BUTTON STYLES*/
 button {
-    margin-inline-start: 29% !important;
+    margin-inline-start: 32% !important;
     background-color: #acacacb9;
     border: none;
     max-width: 100px; 
@@ -115,6 +107,56 @@ button:hover {
     color: #176524;
   } 
 
+/*DIV ROW STYLES*/
+.row {
+    background-color: #f1f1f1;
+    padding: 0px 20%;
+}
+
+.side {
+    flex: 20%;
+    padding: 40px 20px;
+}
+
+.side h4 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-inline-start: 2px;
+}
+
+.fakeimg {
+    border-style: solid;
+    border-color: #176524;
+    border-radius: 10px;
+    width: 150px;
+    padding: 20px;
+}
+
+main {
+    flex: 80%;
+    padding: 50px; padding-top: 8%;
+}
+
+main h2 {
+    text-transform: uppercase;
+    color:#176524;
+    padding-inline-start: 5px !important;
+}
+
+main .container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+main p {
+    font-size: 13px;
+    padding: 5px;
+}
+
+.big-icons {
+    align-items: center !important;
+}
 
 /* FOOTER STYLE */
 footer {
