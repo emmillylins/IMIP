@@ -107,58 +107,29 @@ button:hover {
     color: #176524;
   } 
 
-/*DIV ROW STYLES*/
-.row {
-    background-color: #f1f1f1;
-    padding: 0px 20%;
-}
-
-.side {
-    flex: 20%;
-    padding: 40px 20px;
-}
-
-.side h4 {
-    color: black;
-    text-transform: uppercase;
-    font-size: 15px;
-    padding-inline-start: 2px;
-}
-
-.fakeimg {
-    border-style: solid;
-    border-color: #176524;
-    border-radius: 10px;
-    width: 150px;
-    padding: 20px;
-}
-
+/* MAIN STYLES */
 main {
-    flex: 80%;
-    padding: 50px; padding-top: 8%;
-}
-
-main h2 {
+    background-color: #f1f1f1;
+    padding: 3% 20%;
+    padding-bottom: 20%;
+    justify-content: center;
     text-transform: uppercase;
-    color:#176524;
-    padding-inline-start: 5px !important;
 }
 
-main .container {
-    background-color: white;
+main h4 {
+    color: white;
+    font-size: 18px;
+    padding: 5px 8px;
+    background-color: #176524;
     border-radius: 10px;
+    width: fit-content;
 }
 
-main p {
-    font-size: 12px;
+main img {
     padding: 5px;
 }
 
-.big-icons {
-    align-items: center !important;
-}
-
-/* FOOTER STYLE */
+  /* FOOTER STYLE */
 footer {
     background-color: #176524;
 }
@@ -169,12 +140,4 @@ footer p {
     text-align: center;
     text-transform: uppercase;
     padding: 8px !important;
-}
-
-
-/*RESPONSIVIDADE*/
-@media (max-width: 650px) {
-    header {
-        flex-direction: column;
-    }
 }

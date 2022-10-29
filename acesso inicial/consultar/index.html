@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IMIP - Acesso Inicial</title>
+    <title>IMIP - Consultar</title>
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -29,14 +29,15 @@
             <a href="#"><img src="images/logout.png" alt="sair"></a>
         </div>
     </header>
-      <!-- barra navegável -->
+    <!-- barra navegável -->
     <nav>
-        <a href="index.html">Início</a>
-        <a href="consultar/index.html" target="_blank">Consultar</a>
-        <a href="acompanhamento de jornadas/index.html" target="_blank">Acompanhamento de Jornadas</a>
+        <a href="#">Início</a>
+        <a href="#">Consultar</a>
+        <a href="#">Acompanhamento de Jornadas</a>
         <a href="#">Dados Cadastrais</a>
         <a href="#">Notificar Erro</a>
     </nav>
+    <!-- SECTION -->
     <section>
         <p>nome: maria madalena</p>
         <p>órgão: gerência de atendimento</p>
@@ -44,25 +45,43 @@
         <p id="break"></p>
         <button><a>trocar perfil</a></button>
     </section>
-    <div class="row">
-        <div class="side">
-            <h4>Seja bem vindo ao siapo-imip!</h4>
-            <div class="fakeimg" style="height: 280px;"></div><br>
-            <h4>notícias e avisos</h4>
-            <div class="fakeimg" style="height: 200px;"></div>
-        </div>
-        <main>
-            <h2>meus atalhos</h2>
-            <div class="big-icons">
-                <div class="container"><p>Para adicionar atalhos acesse uma funcionalidade pelo menu e clique no botão "adicionar atalho". Ele está localizado no canto direito inferior.</p></div>
-                <a href="#"><img src="images/grupo-1.png" alt="acesso-inicial-paciente"></a>
-                <a href="#"><img src="images/grupo-2.png" alt="prontuário-paciente"></a>
-                <a href="#"><img src="images/grupo-3.png" alt="resultados-exames"></a>
-                <a href="#"><img src="images/grupo-4.png" alt="itinerário-cirúrgico"></a>
-            </div>
-        </main>
-    </div>
 
+    <!--MAIN-->
+    <main>
+        <div class="titulo">
+            <h4>consultar</h4>
+        </div>
+        <!--MINHA TENTATIVA-->
+        <div class="toggle-list">
+            <!--input 1-->
+            <input type="checkbox" class="toggle" id="info-prof">
+            <label for="info-prof" class="info-toggle">informações do profissional</label>
+            <div class="toggle-content">
+                <div class="inner-content">
+                    <p>alguma coisa...</p>
+                </div>
+            </div>
+            <!--input 2-->
+            <input type="checkbox" class="toggle" id="hora-med">
+            <label for="hora-med" class="hora-med-toggle">horário dos médicos</label>
+            <div class="toggle-content">
+                <div class="inner-content">
+                    <p>alguma coisa...</p>
+                </div>
+            </div>
+            <!--input 3-->
+            <input type="checkbox" class="toggle" id="hora-equipe">
+            <label for="hora-equipe" class="hora-equipe-toggle">horário da equipe multidisciplinar</label>
+            <div class="toggle-content">
+                <div class="inner-content">
+                    <p>alguma coisa...</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!--FOOTER-->
     <footer>
         <p>número de acesso: 1523 | último acesso: 22/10/2022</p>
     </footer>
