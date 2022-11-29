@@ -43,10 +43,6 @@ header #acessibilidade {
     max-width: 45px;
 }
 
-header div {
-    padding-inline-start: 18%;
-}
-
 /*NAV STYLE*/
 nav {
     display: flex;
