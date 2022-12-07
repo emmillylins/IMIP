@@ -75,7 +75,7 @@ nav a:hover {
 /*SECTION STYLES*/
 section {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     margin-top: 2px !important;
 }
 
